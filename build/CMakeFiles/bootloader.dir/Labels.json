@@ -2,6 +2,7 @@
 	"sources" : 
 	[
 		{
+<<<<<<< HEAD
 			"file" : "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/CMakeFiles/bootloader"
 		},
 		{
@@ -30,6 +31,36 @@
 		},
 		{
 			"file" : "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+=======
+			"file" : "C:/Users/eduar/testefodase/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 		}
 	],
 	"target" : 

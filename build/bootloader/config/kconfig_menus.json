@@ -7179,7 +7179,14 @@
                                 "help": "The timeout of the watchdog, in milliseconds. Make this higher than the FreeRTOS tick rate.",
                                 "id": "ESP_INT_WDT_TIMEOUT_MS",
                                 "name": "ESP_INT_WDT_TIMEOUT_MS",
+<<<<<<< HEAD
                                 "range": null,
+=======
+                                "range": [
+                                    10,
+                                    10000
+                                ],
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
                                 "title": "Interrupt watchdog timeout (ms)",
                                 "type": "int"
                             },
@@ -7232,7 +7239,14 @@
                                         "help": "Timeout period configuration for the Task Watchdog Timer in seconds.\nThis is also configurable at run time (see Task Watchdog Timer API Reference)",
                                         "id": "ESP_TASK_WDT_TIMEOUT_S",
                                         "name": "ESP_TASK_WDT_TIMEOUT_S",
+<<<<<<< HEAD
                                         "range": null,
+=======
+                                        "range": [
+                                            1,
+                                            60
+                                        ],
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
                                         "title": "Task Watchdog timeout period (seconds)",
                                         "type": "int"
                                     },

@@ -10,18 +10,34 @@ if(NOT EXISTS "C:/Users/eduar/esp/v5.4.1/esp-idf/components/bootloader/subprojec
   file(MAKE_DIRECTORY "C:/Users/eduar/esp/v5.4.1/esp-idf/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
+<<<<<<< HEAD
   "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader"
   "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix"
   "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/tmp"
   "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp"
   "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src"
   "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp"
+=======
+  "C:/Users/eduar/testefodase/build/bootloader"
+  "C:/Users/eduar/testefodase/build/bootloader-prefix"
+  "C:/Users/eduar/testefodase/build/bootloader-prefix/tmp"
+  "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Users/eduar/testefodase/build/bootloader-prefix/src"
+  "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
+<<<<<<< HEAD
     file(MAKE_DIRECTORY "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
   file(MAKE_DIRECTORY "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+=======
+    file(MAKE_DIRECTORY "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+endforeach()
+if(cfgdir)
+  file(MAKE_DIRECTORY "C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()

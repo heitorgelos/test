@@ -1,6 +1,7 @@
 # Target labels
  bootloader
 # Source files and their labels
+<<<<<<< HEAD
 C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/CMakeFiles/bootloader
 C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/CMakeFiles/bootloader.rule
 C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/CMakeFiles/bootloader-complete.rule
@@ -11,3 +12,15 @@ C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootl
 C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
 C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
 C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+=======
+C:/Users/eduar/testefodase/build/CMakeFiles/bootloader
+C:/Users/eduar/testefodase/build/CMakeFiles/bootloader.rule
+C:/Users/eduar/testefodase/build/CMakeFiles/bootloader-complete.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/eduar/testefodase/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4

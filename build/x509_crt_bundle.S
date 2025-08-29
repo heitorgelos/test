@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* * Data converted from C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/esp-idf/mbedtls/x509_crt_bundle
+=======
+/* * Data converted from C:/Users/eduar/testefodase/build/esp-idf/mbedtls/x509_crt_bundle
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  */
 .data
 #if !defined (__APPLE__) && !defined (__linux__)

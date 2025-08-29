@@ -2,5 +2,9 @@ source "C:/Users/eduar/esp/v5.4.1/esp-idf/components/bootloader/Kconfig.projbuil
 source "C:/Users/eduar/esp/v5.4.1/esp-idf/components/esp_app_format/Kconfig.projbuild"
 source "C:/Users/eduar/esp/v5.4.1/esp-idf/components/esp_rom/Kconfig.projbuild"
 source "C:/Users/eduar/esp/v5.4.1/esp-idf/components/esptool_py/Kconfig.projbuild"
+<<<<<<< HEAD
 source "C:/Users/eduar/esp/v5.4.1/esp-idf/components/partition_table/Kconfig.projbuild"
 source "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/main/Kconfig.projbuild"
+=======
+source "C:/Users/eduar/esp/v5.4.1/esp-idf/components/partition_table/Kconfig.projbuild"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4

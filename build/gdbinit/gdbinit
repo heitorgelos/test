@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 source C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/gdbinit/symbols
 source C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/gdbinit/connect
+=======
+source C:/Users/eduar/testefodase/build/gdbinit/symbols
+source C:/Users/eduar/testefodase/build/gdbinit/connect
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4

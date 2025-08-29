@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/placas_temp")
+=======
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/testefodase")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,11 +43,19 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+=======
+  include("C:/Users/eduar/testefodase/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+=======
+  include("C:/Users/eduar/testefodase/build/esp-idf/esp_hw_support/lowpower/cmake_install.cmake")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 

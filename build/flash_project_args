@@ -1,4 +1,8 @@
 --flash_mode dio --flash_freq 40m --flash_size 2MB
 0x1000 bootloader/bootloader.bin
+<<<<<<< HEAD
 0x10000 placas_temp.bin
+=======
+0x10000 testefodase.bin
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 0x8000 partition_table/partition-table.bin

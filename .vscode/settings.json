@@ -5,6 +5,15 @@
     "idf.openOcdConfigs": [
         "board/esp32-wrover-kit-3.3v.cfg"
     ],
+<<<<<<< HEAD
     "idf.portWin": "COM3",
     "idf.toolsPathWin": "C:\\Users\\eduar\\.espressif"
+=======
+    "idf.toolsPathWin": "C:\\Users\\eduar\\.espressif",
+    "idf.portWin": "COM6",
+    "files.associations": {
+        "*.tpp": "cpp"
+    },
+    "idf.flashType": "UART"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 }

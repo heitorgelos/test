@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 # Install script for directory: C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/placas_temp")
+=======
+# Install script for directory: C:/Users/eduar/testefodase
+
+# Set the install prefix
+if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/testefodase")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +47,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/esp-idf/cmake_install.cmake")
+=======
+  include("C:/Users/eduar/testefodase/build/esp-idf/cmake_install.cmake")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +69,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
   file(WRITE "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/${CMAKE_INSTALL_MANIFEST}"
+=======
+  file(WRITE "C:/Users/eduar/testefodase/build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

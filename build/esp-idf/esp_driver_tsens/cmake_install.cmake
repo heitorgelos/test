@@ -2,7 +2,11 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
+<<<<<<< HEAD
   set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/placas_temp")
+=======
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/testefodase")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

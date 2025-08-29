@@ -15,7 +15,11 @@
 
 set(HEAD_HASH)
 
+<<<<<<< HEAD
 file(READ "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
+=======
+file(READ "C:/Users/eduar/testefodase/build/bootloader/CMakeFiles/git-data/HEAD" HEAD_CONTENTS LIMIT 1024)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 
 string(STRIP "${HEAD_CONTENTS}" HEAD_CONTENTS)
 set(GIT_DIR "C:/Users/eduar/esp/v5.4.1/esp-idf/.git")
@@ -34,17 +38,31 @@ if(HEAD_CONTENTS MATCHES "ref")
 	# named branch
 	string(REPLACE "ref: " "" HEAD_REF "${HEAD_CONTENTS}")
 	if(EXISTS "${GIT_DIR}/${HEAD_REF}")
+<<<<<<< HEAD
 		configure_file("${GIT_DIR}/${HEAD_REF}" "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/CMakeFiles/git-data/head-ref" COPYONLY)
 	elseif(EXISTS "${GIT_DIR}/logs/${HEAD_REF}")
 		configure_file("${GIT_DIR}/logs/${HEAD_REF}" "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/CMakeFiles/git-data/head-ref" COPYONLY)
+=======
+		configure_file("${GIT_DIR}/${HEAD_REF}" "C:/Users/eduar/testefodase/build/bootloader/CMakeFiles/git-data/head-ref" COPYONLY)
+	elseif(EXISTS "${GIT_DIR}/logs/${HEAD_REF}")
+		configure_file("${GIT_DIR}/logs/${HEAD_REF}" "C:/Users/eduar/testefodase/build/bootloader/CMakeFiles/git-data/head-ref" COPYONLY)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 		set(HEAD_HASH "${HEAD_REF}")
 	endif()
 else()
 	# detached HEAD
+<<<<<<< HEAD
 	configure_file("${GIT_DIR}/HEAD" "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/CMakeFiles/git-data/head-ref" COPYONLY)
 endif()
 
 if(NOT HEAD_HASH)
 	file(READ "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
+=======
+	configure_file("${GIT_DIR}/HEAD" "C:/Users/eduar/testefodase/build/bootloader/CMakeFiles/git-data/head-ref" COPYONLY)
+endif()
+
+if(NOT HEAD_HASH)
+	file(READ "C:/Users/eduar/testefodase/build/bootloader/CMakeFiles/git-data/head-ref" HEAD_HASH LIMIT 1024)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 	string(STRIP "${HEAD_HASH}" HEAD_HASH)
 endif()

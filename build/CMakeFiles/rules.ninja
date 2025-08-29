@@ -6,7 +6,11 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
+<<<<<<< HEAD
 # Project: placas_temp
+=======
+# Project: testefodase
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -14,7 +18,11 @@
 #############################################
 # Rule for compiling C files.
 
+<<<<<<< HEAD
 rule C_COMPILER__placas_temp.2eelf_unscanned_
+=======
+rule C_COMPILER__testefodase.2eelf_unscanned_
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\Users\eduar\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +32,11 @@ rule C_COMPILER__placas_temp.2eelf_unscanned_
 #############################################
 # Rule for linking CXX executable.
 
+<<<<<<< HEAD
 rule CXX_EXECUTABLE_LINKER__placas_temp.2eelf_
+=======
+rule CXX_EXECUTABLE_LINKER__testefodase.2eelf_
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
   command = C:\WINDOWS\system32\cmd.exe /C "$PRE_LINK && C:\Users\eduar\.espressif\tools\xtensa-esp-elf\esp-14.2.0_20241119\xtensa-esp-elf\bin\xtensa-esp32-elf-g++.exe $FLAGS $LINK_FLAGS @$RSP_FILE -o $TARGET_FILE && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   rspfile = $RSP_FILE
@@ -1806,6 +1818,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_main_
 
 
 #############################################
+<<<<<<< HEAD
 # Rule for compiling C files.
 
 rule C_COMPILER____idf_soft_i2c_master_unscanned_
@@ -1829,6 +1842,12 @@ rule C_STATIC_LIBRARY_LINKER____idf_soft_i2c_master_
 
 rule RERUN_CMAKE
   command = C:\Users\eduar\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\eduar\OneDrive\Desktop\Heitor_ufmg\Formula_ufmg\placas_temp -BC:\Users\eduar\OneDrive\Desktop\Heitor_ufmg\Formula_ufmg\placas_temp\build
+=======
+# Rule for re-running cmake.
+
+rule RERUN_CMAKE
+  command = C:\Users\eduar\.espressif\tools\cmake\3.30.2\bin\cmake.exe --regenerate-during-build -SC:\Users\eduar\testefodase -BC:\Users\eduar\testefodase\build
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
   description = Re-running CMake...
   generator = 1
 

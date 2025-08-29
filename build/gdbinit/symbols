@@ -18,8 +18,16 @@ end
 
 # Load bootloader symbols
 set confirm off
+<<<<<<< HEAD
     add-symbol-file C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
 file C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/placas_temp.elf
+=======
+    add-symbol-file C:/Users/eduar/testefodase/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/eduar/testefodase/build/testefodase.elf
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4

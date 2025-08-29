@@ -39,7 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+<<<<<<< HEAD
   include("C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/esp-idf/cmake_install.cmake")
+=======
+  include("C:/Users/eduar/testefodase/build/bootloader/esp-idf/cmake_install.cmake")
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +61,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
   file(WRITE "C:/Users/eduar/OneDrive/Desktop/Heitor_ufmg/Formula_ufmg/placas_temp/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+=======
+  file(WRITE "C:/Users/eduar/testefodase/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

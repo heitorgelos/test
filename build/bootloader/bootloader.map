@@ -779,7 +779,11 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
  .debug_line    0x00000000      0x21f esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000     0x15d9 esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
+=======
+ .debug_str     0x00000000     0x15af esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_table.c.obj)
  .literal.esp_efuse_get_pkg_ver
                 0x00000000        0x8 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
@@ -808,7 +812,11 @@ Discarded input sections
                 0x00000000       0x38 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
  .debug_ranges  0x00000000       0x28 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
  .debug_line    0x00000000      0x5dd esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000      0xcb7 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
+=======
+ .debug_str     0x00000000      0xc8d esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_fields.c.obj)
  .literal.esp_efuse_read_field_blob
                 0x00000000       0x10 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
@@ -903,7 +911,11 @@ Discarded input sections
                 0x00000000       0x98 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
  .debug_ranges  0x00000000       0xb8 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
  .debug_line    0x00000000     0x130f esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000      0xfbd esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
+=======
+ .debug_str     0x00000000      0xf93 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_api.c.obj)
  .literal.write_reg
                 0x00000000       0x1c esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
@@ -1014,7 +1026,11 @@ Discarded input sections
                 0x00000000       0xa8 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .debug_ranges  0x00000000      0x318 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .debug_line    0x00000000     0x1948 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000     0x1133 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+=======
+ .debug_str     0x00000000     0x1109 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .literal.esp_efuse_get_coding_scheme$part$0
                 0x00000000        0x4 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
@@ -1093,7 +1109,11 @@ Discarded input sections
                 0x00000000       0x90 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
  .debug_ranges  0x00000000       0xe8 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
  .debug_line    0x00000000      0xea8 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000     0x2376 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
+=======
+ .debug_str     0x00000000     0x234c esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_api_key.c.obj)
  .literal.esp_efuse_utility_clear_program_registers
                 0x00000000        0x4 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
@@ -1140,7 +1160,11 @@ Discarded input sections
                 0x00000000       0x48 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .debug_ranges  0x00000000      0x1f0 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .debug_line    0x00000000     0x10de esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000      0xeb5 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+=======
+ .debug_str     0x00000000      0xe8b esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/efuse/libefuse.a(esp_efuse_utility.c.obj)
  .text          0x00000000        0x0 esp-idf/esp_hw_support/libesp_hw_support.a(cpu_region_protect.c.obj)
  .data          0x00000000        0x0 esp-idf/esp_hw_support/libesp_hw_support.a(cpu_region_protect.c.obj)
@@ -1309,7 +1333,11 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
  .debug_line    0x00000000      0x206 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000      0x941 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
+=======
+ .debug_str     0x00000000      0x917 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/soc/libsoc.a(gpio_periph.c.obj)
  .text          0x00000000        0x0 esp-idf/hal/libhal.a(mpu_hal.c.obj)
  .data          0x00000000        0x0 esp-idf/hal/libhal.a(mpu_hal.c.obj)
@@ -1406,7 +1434,11 @@ Discarded input sections
                 0x00000000       0x20 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
  .debug_ranges  0x00000000       0x10 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
  .debug_line    0x00000000      0x205 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
+<<<<<<< HEAD
  .debug_str     0x00000000      0x2d0 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
+=======
+ .debug_str     0x00000000      0x2a6 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
  .comment       0x00000000       0x30 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_loader.c.obj)
  .text          0x00000000       0x18 C:/Users/eduar/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/no-rtti\libgcc.a(_ashldi3.o)
  .data          0x00000000        0x0 C:/Users/eduar/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/../lib/gcc/xtensa-esp-elf/14.2.0/esp32/no-rtti\libgcc.a(_ashldi3.o)
@@ -5437,6 +5469,7 @@ LOAD C:/Users/eduar/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-e
  .debug_frame   0x00001458      0x118 esp-idf/hal/libhal.a(wdt_hal_iram.c.obj)
  .debug_frame   0x00001570       0xe8 esp-idf/hal/libhal.a(mmu_hal.c.obj)
 
+<<<<<<< HEAD
 .debug_str      0x00000000     0xacb5
  *(.debug_str)
  .debug_str     0x00000000     0xacb5 esp-idf/soc/libsoc.a(dport_access.c.obj)
@@ -5478,6 +5511,49 @@ LOAD C:/Users/eduar/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-e
  .debug_str     0x0000acb5     0x193f esp-idf/hal/libhal.a(efuse_hal.c.obj)
  .debug_str     0x0000acb5     0x2471 esp-idf/hal/libhal.a(wdt_hal_iram.c.obj)
  .debug_str     0x0000acb5      0x682 esp-idf/hal/libhal.a(mmu_hal.c.obj)
+=======
+.debug_str      0x00000000     0xac8b
+ *(.debug_str)
+ .debug_str     0x00000000     0xac8b esp-idf/soc/libsoc.a(dport_access.c.obj)
+                                0x294 (size before relaxing)
+ .debug_str     0x0000ac8b      0x30e esp-idf/esp_bootloader_format/libesp_bootloader_format.a(esp_bootloader_desc.c.obj)
+ .debug_str     0x0000ac8b      0x324 esp-idf/bootloader_support/libbootloader_support.a(bootloader_panic.c.obj)
+ .debug_str     0x0000ac8b     0x1092 esp-idf/main/libmain.a(bootloader_start.c.obj)
+ .debug_str     0x0000ac8b     0x16e1 esp-idf/bootloader_support/libbootloader_support.a(bootloader_utility.c.obj)
+ .debug_str     0x0000ac8b      0x4c2 esp-idf/bootloader_support/libbootloader_support.a(flash_partitions.c.obj)
+ .debug_str     0x0000ac8b     0x1779 esp-idf/bootloader_support/libbootloader_support.a(esp_image_format.c.obj)
+ .debug_str     0x0000ac8b      0x2b2 esp-idf/bootloader_support/libbootloader_support.a(bootloader_console_loader.c.obj)
+ .debug_str     0x0000ac8b      0xa45 esp-idf/bootloader_support/libbootloader_support.a(bootloader_sha.c.obj)
+ .debug_str     0x0000ac8b      0x20a esp-idf/bootloader_support/libbootloader_support.a(bootloader_soc.c.obj)
+ .debug_str     0x0000ac8b      0xf4f esp-idf/bootloader_support/libbootloader_support.a(bootloader_esp32.c.obj)
+ .debug_str     0x0000ac8b     0x13ea esp-idf/bootloader_support/libbootloader_support.a(bootloader_common.c.obj)
+ .debug_str     0x0000ac8b      0xea2 esp-idf/bootloader_support/libbootloader_support.a(bootloader_common_loader.c.obj)
+ .debug_str     0x0000ac8b      0x702 esp-idf/bootloader_support/libbootloader_support.a(bootloader_clock_init.c.obj)
+ .debug_str     0x0000ac8b      0x29b esp-idf/bootloader_support/libbootloader_support.a(bootloader_mem.c.obj)
+ .debug_str     0x0000ac8b      0x337 esp-idf/bootloader_support/libbootloader_support.a(bootloader_random.c.obj)
+ .debug_str     0x0000ac8b     0x16c7 esp-idf/bootloader_support/libbootloader_support.a(bootloader_efuse.c.obj)
+ .debug_str     0x0000ac8b      0xe3d esp-idf/bootloader_support/libbootloader_support.a(flash_encrypt.c.obj)
+ .debug_str     0x0000ac8b      0x2b3 esp-idf/bootloader_support/libbootloader_support.a(bootloader_random_esp32.c.obj)
+ .debug_str     0x0000ac8b     0x234f esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash.c.obj)
+ .debug_str     0x0000ac8b     0x139b esp-idf/bootloader_support/libbootloader_support.a(bootloader_flash_config_esp32.c.obj)
+ .debug_str     0x0000ac8b     0x2bce esp-idf/bootloader_support/libbootloader_support.a(bootloader_init.c.obj)
+ .debug_str     0x0000ac8b      0x9c8 esp-idf/bootloader_support/libbootloader_support.a(bootloader_console.c.obj)
+ .debug_str     0x0000ac8b      0x321 esp-idf/esp_hw_support/libesp_hw_support.a(cpu_region_protect.c.obj)
+ .debug_str     0x0000ac8b     0x319c esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk.c.obj)
+ .debug_str     0x0000ac8b     0x1495 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_clk_init.c.obj)
+ .debug_str     0x0000ac8b     0x17ff esp-idf/esp_hw_support/libesp_hw_support.a(rtc_init.c.obj)
+ .debug_str     0x0000ac8b     0x1ad8 esp-idf/esp_hw_support/libesp_hw_support.a(rtc_time.c.obj)
+ .debug_str     0x0000ac8b      0xadb esp-idf/esp_rom/libesp_rom.a(esp_rom_sys.c.obj)
+ .debug_str     0x0000ac8b      0x962 esp-idf/esp_rom/libesp_rom.a(esp_rom_uart.c.obj)
+ .debug_str     0x0000ac8b      0x99c esp-idf/esp_rom/libesp_rom.a(esp_rom_spiflash.c.obj)
+ .debug_str     0x0000ac8b      0x2be esp-idf/esp_rom/libesp_rom.a(esp_rom_gpio.c.obj)
+ .debug_str     0x0000ac8b      0x2ef esp-idf/log/liblog.a(log_timestamp.c.obj)
+ .debug_str     0x0000ac8b      0x338 esp-idf/hal/libhal.a(mpu_hal.c.obj)
+ .debug_str     0x0000ac8b     0x1829 esp-idf/hal/libhal.a(efuse_hal.c.obj)
+ .debug_str     0x0000ac8b     0x1915 esp-idf/hal/libhal.a(efuse_hal.c.obj)
+ .debug_str     0x0000ac8b     0x2447 esp-idf/hal/libhal.a(wdt_hal_iram.c.obj)
+ .debug_str     0x0000ac8b      0x658 esp-idf/hal/libhal.a(mmu_hal.c.obj)
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
 
 .debug_loc      0x00000000     0xa26a
  *(.debug_loc)

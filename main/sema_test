@@ -1,0 +1,31 @@
+#include "esp_mac.h"
+#include "freertos/task.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/semphr.h"
+#include "esp_err.h"
+
+void task1(){
+    while (1)
+    {
+        printf("Oi sou a task1! \n");
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
+    
+}
+
+void task2(){
+    while (1)
+    {
+        printf("Oi sou a task2! \n");
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
+    
+}
+
+
+
+void app_main(){
+    xTaskCreate(task1,"Task1",2048,NULL,5,NULL);
+    xTaskCreate(task2,"Task2",2048,NULL,5,NULL);
+}
+

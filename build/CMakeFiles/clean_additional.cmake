@@ -16,9 +16,15 @@ if("${CONFIG}" STREQUAL "" OR "${CONFIG}" STREQUAL "")
   "flasher_args.json"
   "ldgen_libraries"
   "ldgen_libraries.in"
+<<<<<<< HEAD
   "placas_temp.bin"
   "placas_temp.map"
   "project_elf_src_esp32.c"
+=======
+  "project_elf_src_esp32.c"
+  "testefodase.bin"
+  "testefodase.map"
+>>>>>>> 4d4d08ed37aa51b2658f3860ea8156e0349154f4
   "x509_crt_bundle.S"
   )
 endif()
