@@ -1,0 +1,114 @@
+#include <stdio.h>
+#include "esp_err.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_mac.h"
+#include "freertos/semphr.h"
+#include "esp_log.h"
+
+#define NUM_SENS 8
+bool run=true;
+
+QueueHandle_t fila =NULL;
+SemaphoreHandle_t sema=NULL;
+TaskHandle_t proc_data_hdl = NULL;
+TaskHandle_t rcv_data_hdl  = NULL;
+
+uint8_t count_dt=0;
+
+void rcv_data(void *pvParameters){
+
+    float data;
+    while(run){
+        data = (rand()%100+100);
+        
+        //Atualizando var global sobre o número de dados colhidos
+        //Usando semáforo pois recurso é dividido por 2 tasks
+        if (xSemaphoreTake(sema,portMAX_DELAY))
+        {
+            count_dt++;
+            xSemaphoreGive(sema);
+        }
+        //Enfileirando o dado
+        (void)xQueueGenericSend(fila,&data,portMAX_DELAY,queueSEND_TO_BACK);
+        ESP_LOGI("Receive data","Dado enfileirado: %f",data);
+
+        if (count_dt>=NUM_SENS)
+        {
+            xTaskNotifyGive(proc_data_hdl);
+        }
+        
+        
+
+        vTaskDelay(pdMS_TO_TICKS(1000)); //Quantos Hz?
+    }
+
+}
+
+void proc_data(void *pvParameters){
+
+    float data_buffer[NUM_SENS];
+    uint8_t num_datas=0;
+
+    while (run)
+    {
+        //Esperando ser notificado
+        if (ulTaskNotifyTake(pdFALSE,portMAX_DELAY)) //Retorna um inteiro com o número atual de notificações a cada notificação nova
+        {                                            //pdFalse não deixa que o contador seja apagado
+            ESP_LOGE("DEBUG","Processando dados, valor de count_dt: %d",count_dt);
+            num_datas=0;
+            for (int indx = 0; indx < NUM_SENS; indx++)
+            {
+                if (xQueueReceive(fila,(void *)&data_buffer[indx],0)==pdTRUE) //Pegando um valor
+                {
+                    ESP_LOGI("Processe data","Valor desenfileirado %f\n",data_buffer[indx]);
+                    num_datas++;
+                }else{
+                    break; //Sai do for de nao pegar valor
+                }
+                
+            }
+            
+        }
+
+        //Limpando o buffer
+        for (int i = 0; i < num_datas; i++)
+        {
+            data_buffer[i]=0;
+        }
+        ESP_LOGI("Processe data","Buffer limpo\n");
+
+        if (xSemaphoreTake(sema,portMAX_DELAY)==pdTRUE)
+        {
+            count_dt =0;
+            xSemaphoreGive(sema);
+            ESP_LOGI("Processe data","Decreased count_dt to %d\n",count_dt);
+        }
+        
+        vTaskDelay(pdMS_TO_TICKS(1000)); //Quantos Hz?
+    }
+    
+}
+
+void app_main(){
+
+    sema = xSemaphoreCreateBinary();
+    if(sema==NULL){
+        printf("Problemas na criação do semáforo");
+    }
+    fila = xQueueCreate(NUM_SENS,sizeof(float));
+    if(fila==NULL){
+        printf("Problemas na criação da fila");
+    }
+    
+    xSemaphoreGive(sema);
+
+    xTaskCreate(proc_data, "Processing task", 4096, NULL, 5, &proc_data_hdl);
+    xTaskCreate(rcv_data, "Receiving task", 4096, NULL, 5, &rcv_data_hdl);
+    vTaskDelay(pdMS_TO_TICKS(100)); //Tempo pras tasks serem setadas
+    
+ 
+   
+
+}
+
